@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    background-image: url("http://hitwallpaper.com/wp-content/uploads/2013/09/A-colour-field.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 4.0rem;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#fadeIn01{
+  display: none;
+}
+
+#fadeIn02{
+  display: none;
+}
+
+.fade, .fade2{
+  display: inline-block;
+  position: absolute;
+  vertical-align: top;
+  font-size: 1.3rem;
+  width: 20%;
+  font-family: 'Indie Flower', cursive;
+}
+
+.fade{
+  margin-left: 3.0rem;
+}
+
+.fade2{
+  margin-left: 27.0rem;
+}
+
+.inputFields{
+  display: inline-block;
+}
+
+.arrowPic{
+  width: 30%;
+}

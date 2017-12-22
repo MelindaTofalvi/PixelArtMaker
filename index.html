@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <div id="fadeIn01" class="fade">
+      <p>Choose height, width, <br />color and then hit submit!</p>
+      <img src="http://www.yim778.com/data/out/26/717882.png" alt="arrow" class="arrowPic">
+    </div>
+
+    <div class="inputFields">
+
+      <div id="fadeIn02" class="fade2">
+        <p>Color the cell with one click, <br />Undo with double click</p>
+        <img src="https://cdn.pixabay.com/photo/2016/06/04/09/32/arrow-1435215_960_720.png" alt="arrow" class="arrowPic">
+      </div>
+
+      <h2>Choose Grid Size</h2>
+
+      <form id="sizePicker">
+          Grid Height:
+          <input type="number" id="input_height" name="height" min="1" value="1">
+          Grid Width:
+          <input type="number" id="input_width" name="width" min="1" value="1">
+          <input type="submit" value="Submit" id="submit">
+      </form>
+
+      <h2>Pick A Color</h2>
+      <input type="color" id="colorPicker">
+    </div>
+
+    <h2>Design Canvas</h2>
+
+    <table id="pixel_canvas"></table>
+
+  <script src="designs.js"></script>
+</body>
+</html>
